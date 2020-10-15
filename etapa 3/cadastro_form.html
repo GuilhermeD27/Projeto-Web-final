@@ -1,0 +1,75 @@
+<style>
+   h2{
+       color: black;
+   }
+</style>
+
+<div class="cadastro">
+
+    <h2> INSERIR <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-box-seam" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+      </svg> </h2>
+    
+
+    <form id="frmCadastro" method="post">
+
+        <table>
+
+            <tr>
+   
+            <td>Tipo: </td><td><input type="text" name="campo_tipo" id="cmpTp" required onblur="caixa_alta(this)"></td>
+
+            </tr>
+            <tr>
+
+                <td>Processador: </td><td><input type="text" name="campo_proce" id="cmpPc" required onblur="caixa_alta(this)"></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Ram: </td><td><input type="text" name="campo_ram" id="cmpRm" required onblur="caixa_alta(this)"></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Disco: </td><td><input type="text" name="campo_disco" id="cmpDc" required onblur="caixa_alta(this)"></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Marca: </td><td><input type="text" name="campo_marca" id="cmpMc" required onblur="caixa_alta(this)"></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Modelo: </td><td><input type="text" name="campo_modelo" id="cmpMd" required onblur="caixa_alta(this)"></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Fonte: </td><td><input type="text" name="campo_fonte" id="cmpFt" placeholder="Somente para descktop"></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Tela: </td><td><input type="text" name="campo_tela" id="cmpTl" placeholder="Somente para Laptop"></td>
+
+            </tr>
+
+            <tr>
+
+                <td><input type="submit" value="SALVAR"></td><td></td>
+
+            </tr>
+
+        </table>
+
+    </form>
+
+</div>
